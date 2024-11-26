@@ -9,4 +9,5 @@ def read_file_with_error_handling():
     except FileNotFoundError:
         print(f"Error: The file '{filename}' was not found.")
     except PermissionError:
-        print
+        print(f"Error: You don't have permission to read the file '{filename}'.")
+    except
