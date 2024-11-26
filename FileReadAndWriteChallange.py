@@ -10,3 +10,5 @@ def modify_file(input_file, output_file):
             outfile.write(modified_content)
             
         print(f"Content from {input_file} has been modified and written to {output_file}.")
+    except FileNotFoundError:
+        print(f"Error: The file '{input_file}' does not exist.")
