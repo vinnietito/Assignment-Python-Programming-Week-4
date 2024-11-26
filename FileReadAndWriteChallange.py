@@ -14,3 +14,9 @@ def modify_file(input_file, output_file):
         print(f"Error: The file '{input_file}' does not exist.")
     except Exception as e:
         print(f"An error occured: {e}")
+        
+
+# Example Usage
+input_filename = "example.txt"
+output_filename = "modified_example.txt"
+modify_file(input_filename, output_filename)
