@@ -9,4 +9,4 @@ def modify_file(input_file, output_file):
         with open(output_file, 'w') as outfile:
             outfile.write(modified_content)
             
-        print
+        print(f"Content from {input_file} has been modified and written to {output_file}.")
